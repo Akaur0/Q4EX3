@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Arithmetic Operators</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+	<div class="container" style="font-size: 2em; background-image: math.jpg;"></div>
+	<body style="background-color: #F6EC58;>
+		<h1 style= "font-family: Comforta;color:><span style="background-color: orangered;" align>JavaScript Aritmetic Operators</span></h1>
+		<p><mark>a=2, b=4, c=6, d=8, e=10;</mark></p>
+		<ol type="1.">
+		<tbody>
+        <tr>
+         
+		<li>c + d = <strong id="p1"></strong></li>
+		<li>e - a = <strong id="p2"></strong></li>	
+		<li>d * b = <strong id="p3"></strong></li>
+		<li>c / a = <strong id="p4"></strong></li>
+		<li>a % 4 = <strong id="p5"></strong></li>
+		</tr>
+	</ol>
+
+	<script>
+		let a=2, b=4, c=6, d=8, e=10;
+
+		let sum = a + b;
+		let diff = b - a;
+
+		alert("The sum of variable a and variable b is:" + sum + "\n" +
+			"The difference of variable b and and variable a is:" + diff);
+
+		//variable declaration; assignment of values
+		document.getElementById("p1").innerHTML = c + d;
+		document.getElementById("p2").innerHTML = e - a;
+		document.getElementById("p3").innerHTML = d * b;
+	</script>
+	</body>
